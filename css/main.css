@@ -1,0 +1,172 @@
+.container{
+    width: 85%;
+}
+nav {
+    background-color: #070711;
+    
+}
+.navbar-brand{
+    color: white ;
+}
+.navbar-brand:hover{
+    color:#009AD8;
+}
+.nav-link{
+   color: white ;
+    border: none;
+    transition: all 1s;
+}
+.nav-link:hover{
+    color:#009AD8;
+    border: 1px solid #009AD8 ;
+}
+.navbar-nav .nav-link.active{
+    color:#009AD8;
+    border: 1px solid #009AD8;
+}
+
+
+.banner{
+    background-image: url("../images/pexels-david-bartus-1710355.jpg");
+    background-size:cover;
+    background-position: top left;
+}
+
+.card-header1-3{
+    background-color: #070711;
+    color:#BFC1C8;
+    border-bottom: none; 
+}
+.card-body1-3 {
+    background-color: #ffffff;
+    color:#070711;
+}
+.card-title{
+    color:#070711;
+    
+}
+.card-text1{
+    font-size: 6.4285714286rem;
+}
+p{
+    color: #026e99;
+}
+
+.card-header2{
+    background-color: #070711;
+    color:#BFC1C8;
+    border-bottom: none;
+    
+}
+.card-body2 {
+    background-color: #d9ddde;
+    color:#070711;
+}
+.p1-card2-3 , .copyright{
+    color:#070711;
+}
+
+
+
+
+
+.footer{
+    background-color: #070711;
+
+}
+.form-control{
+    background-color: #0b0b1b;
+    border-color: #1E202B;
+}
+.form-control:focus{
+    background-color: #070711;
+    border-color: #1E202B;
+    box-shadow: none;
+    z-index: 0;
+}
+.btn-subscribe{
+    right: 5px;
+    background-color: #009AD8;
+    border-color: #009AD8; 
+    z-index: 999;
+}
+.btn-subscribe:hover{
+    background-color: #0388bc;
+    border-color: #015b88;
+}
+.icon-social{
+    color: #009AD8;
+    font-size: 20px;
+    padding:10px;
+    cursor: pointer;
+    background-color: #070711;
+    border-color: #1E202B;
+}
+.icon-social:hover{
+    color:white;
+    background-color: #009AD8;
+    border-color: #009AD8;
+}
+.copyright{
+    color:#BFC1C8;
+}
+.input-srarch{
+    width: 75%;
+}
+
+.loading{
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #070711;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-loading{
+    color: #009AD8;
+    font-size: x-large;
+}
+
+.loader {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-bottom: 4px solid #009AD8;
+    border-left: 4px solid transparent;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+
+
+@media screen and (max-width:540px) {
+    .input-srarch{
+        width: 100%;
+    }
+}

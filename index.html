@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pexels-lara-jameson-8828738.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <title>Weather</title> -->
+</head>
+
+<body class="bg-light">
+
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto p-5 d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active px-4 py-1 rounded-pill me-2" aria-current="page" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link px-4 py-1 rounded-pill me-2" href="#Search1">Search</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link px-4 py-1 rounded-pill mx-2" href="#temp">Temp</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link px-4 py-1 rounded-pill mx-2" href="#home">Photos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link px-4 py-1 rounded-pill mx-2" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- <select class="form-select mb-5" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option class="x" value="arabic">arabic</option>
+        <option class="x" value="english">english</option>
+        <option >Three</option>
+      </select> -->
+      <!-- <select class="form-select mb-5" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select> -->
+
+
+    <div id="Search1" class="">
+        <div class="banner py-5">
+            <div class="container pb-5">
+                <form class="py-5 d-flex justify-content-center">
+                    <div class="input-srarch text-center">
+                        <input type="search" id="FindLocation"
+                            class="form-control text-white p-3 px-4 pl-10 w-full rounded-pill dark:placeholder-gray-400"
+                            placeholder="Find your Location..." required="">
+
+                    </div>
+                </form>
+
+                <table class="table table-striped  my-3 text-center">
+                    <thead class="table-primary">
+                        <th>name_Arabic</th>
+                        <th>name_English</th>
+                        <th>alt_Arabic</th>
+                        <th>alt_English</th>
+                        <th>keyword_Arabic</th>
+                        <th>keyword_English</th>
+                    </thead>
+                    <tbody class="table-striped table-dark" id="demo">
+
+                        <!-- <tr>
+                            <td>Ahmed</td>
+                            <td>Ahmed</td>
+                            <td><button class="btn btn-outline-warning">Visit</button></td>
+                            <td><button class="btn btn-outline-warning">update</button></td>
+                            <td><button class="btn btn-outline-danger">delete</button></td>
+                        </tr> -->
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="footer" class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-6 col-sm-12">
+                    <form class="mb-4">
+                        <div class="relative ">
+                            <input type="search" id="default-search"
+                                class="form-control text-white p-3 pl-10 w-full text-sm rounded-pill dark:placeholder-gray-400"
+                                placeholder="Find your Location..." required="">
+                            <button type="submit"
+                                class="btn-subscribe rounded-pill text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <i class="fa-brands fa-facebook icon-social rounded-circle"></i>
+                    <i class="fa-brands fa-twitter icon-social rounded-circle"></i>
+                    <i class="fa-brands fa-google-plus-g icon-social rounded-circle"></i>
+                    <i class="fa-brands fa-product-hunt icon-social rounded-circle"></i>
+                </div>
+                <div class="copyright text-center">Copyright © 2022, Designed by Ah-med Mostafa. All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="../path/to/flowbite/dist/flowbite.js"></script> -->
+</body>
+
+</html>
